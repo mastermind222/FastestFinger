@@ -6,7 +6,7 @@ const levels = {
   hard: 3
 };
 
-const currentLevel = levels.medium;
+const currentLevel = levels.hard;
 
 
 
