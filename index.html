@@ -1,0 +1,61 @@
+<!DOCTYPE html>""
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FASTFINGERS</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+
+		<div class="page-header">
+ 			 <h1>FastestFinger</h1>
+		</div>
+
+		<div class="container">
+			<p class="direction">Type the Given Word in <span class="text-success" id="seconds">5</span> Seconds:</p>
+			<h2 class="hello" id="current-word" >hello</h2>
+
+			<div class="form-group">
+ 				 <input type="text" class="form-control" id="word-input" autofocus placeholder="Type Here...">
+			</div>
+
+			<h4 id="message"></h4>
+
+
+			<div class="row mt-5">
+				<div class="col-md-6" id="ct">
+					<h4>Countdown Timer:
+                       <span id="time">0</span>
+					</h4>
+				</div>
+				<div class="col-md-6" id="s">
+					<h4>Score:
+                       <span id="score">0</span>
+					</h4>
+				</div>
+			</div>
+
+
+			<div class="row mt-5">
+				<div class="col-md-12" id="colcard">
+				  	<div class="card">
+						<h5>Instructions</h5>
+                    	<p>Type each word in the given amount of seconds to score.To play again, just type the current word. Your score
+                		will reset</p>
+                  	</div>
+				</div>
+			</div>
+
+		</div>
+
+        
+    <script src="javascript.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+	background-color: #2e2d2d;
+}
+
+.card{
+
+	background: grey;
+	text-align: center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-header{
+	background: grey;
+	height: 80px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+h1{
+	color: white;
+}
+
+.direction{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.hello{
+     text-align: center;
+     font-size: 80px;
+     padding-top: 20px;
+     color:white;
+}
+
+.form-group{
+	padding-top: 30px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-control{
+	height: 50px;
+	width:550px;
+}
+
+#message{
+	text-align: center;
+	color: white;
+}
+
+#s{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#ct{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.col-md-6{
+	border-width: 2.5px;
+	border-style: solid;
+	border-color: white;
+}
